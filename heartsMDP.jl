@@ -389,4 +389,4 @@ def runGame(getSeen, getNextAction, observeActionTaken, numRuns):
     print(f"Agent placing: {customAgentPlaceCount}, {points_history} {leader_deltas}")
 """
 
-py"runGame"(getSeen, getNextAction, observeActionTaken, 100)
+py"runGame"(getSeen, getNextAction, observeActionTaken, 1000)
